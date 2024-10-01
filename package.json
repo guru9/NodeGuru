@@ -1,0 +1,50 @@
+{
+  "dependencies": {
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "inversify": "^6.0.2",
+    "mongoose": "^8.6.1",
+    "reflect-metadata": "^0.2.2"
+  },
+  "name": "nodeguru",
+  "version": "1.0.0",
+  "description": "Modern API Development with Node.js, Express, MongoDB and TypeScript using Clean Architecture",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon index.ts",
+    "start": "nodemon index.ts",
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guru9/NodeGuru.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongo",
+    "typescript",
+    "clean",
+    "node structure"
+  ],
+  "author": "Gururaj Moger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guru9/NodeGuru/issues"
+  },
+  "homepage": "https://github.com/guru9/NodeGuru#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.4",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.4"
+  }
+}

@@ -1,17 +1,6 @@
 ﻿import { Router } from "express";
-import { userRouter } from "./user.router";
-import { bookRouter } from "./book.router";
-import { counterRouter } from "./count.router";
-
 
 const router = Router()
-
-/* 
-for all routes
- */
-router.use('/users', userRouter)
-router.use('/books', bookRouter)
-router.use('/counts', counterRouter)
 
 
 /* 
